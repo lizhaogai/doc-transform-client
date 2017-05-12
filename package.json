@@ -1,0 +1,23 @@
+{
+  "name": "doc-transform-client",
+  "version": "1.0.0",
+  "description": "",
+  "spec": "http://192.168.230.128:3000/explorer/swagger.json",
+  "main": "./index",
+  "author": "Yuan Tao <towyuan@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com//doc-transform-client.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "up": "yo oac --force"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "debug": "^2.6.0",
+    "qs": "^6.3.0"
+  }
+}
